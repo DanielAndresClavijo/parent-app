@@ -1,6 +1,6 @@
+import 'package:common_ui_app/theme/common_ui_theme.dart';
 import 'package:flutter/material.dart';
-import 'package:micro_app_one/micro_app_one.dart';
-import 'package:common_ui/common_ui.dart';
+import 'package:micro_app_one/micro_app_one_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Modular Super App',
-      theme: CommonUITheme.getTheme(),
+      theme: CommonUITheme.lightTheme,
       home: const MyHomePage(title: 'Home'),
     );
   }
@@ -96,7 +96,7 @@ class MicroAppPage extends StatelessWidget {
         title: const Text('Micro App One'),
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
       ),
-      body: const Center(child: MicroAppOneWidget()),
+      body: const Center(child: MicroAppOnePage(title: 'Micro App One')),
     );
   }
 }

@@ -37,11 +37,11 @@ dependencies:
   micro_app_one:
     git:
       url: https://github.com/DanielAndresClavijo/micro_app_one.git
-      ref: main
-  common_ui:
+      ref: develop
+  common_ui_app:
     git:
       url: https://github.com/DanielAndresClavijo/common_ui_app.git
-      ref: main
+      ref: develop
 
 dev_dependencies:
   flutter_test:

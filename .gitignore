@@ -33,6 +33,41 @@ migrate_working_dir/
 .pub/
 /build/
 
+# Web related
+/web/build/
+
+# Android related
+/android/app/src/main/assets/flutter_assets/
+/android/key.properties
+/android/local.properties
+*.apk
+*.aab
+
+# iOS related
+/ios/Pods/
+/ios/Flutter/App.framework
+/ios/Flutter/engine.version
+/ios/Flutter/flutter_assets/
+/ios/Flutter/Generated.xcconfig
+/ios/.symlinks/
+/ios/Runner/GeneratedPluginRegistrant.*
+*.ipa
+
+# macOS related
+/macos/Flutter/ephemeral/
+/macos/.symlinks/
+/macos/Pods/
+/macos/Runner/GeneratedPluginRegistrant.swift
+
+# Linux related
+/linux/flutter/ephemeral/
+
+# Windows related
+/windows/flutter/ephemeral/
+/windows/runner/Debug/
+/windows/runner/Profile/
+/windows/runner/Release/
+
 # Symbolication related
 app.*.symbols
 
