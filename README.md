@@ -20,6 +20,11 @@ El proyecto se compone de las siguientes partes:
 - **`micro_app_one`:** Un ejemplo de una microaplicación. Es un paquete de Flutter independiente que reside en su propio repositorio de Git.
 - **`common_ui`:** Un paquete compartido que contiene elementos comunes como widgets de UI, temas, colores, fuentes y otras utilidades. También se encuentra en su propio repositorio.
 
+## Repositorios relacionados
+
+- [micro_app_one](https://github.com/DanielAndresClavijo/micro_app_one)
+- [common_ui_app](https://github.com/DanielAndresClavijo/common_ui_app)
+
 ## Cómo Empezar
 
 Sigue estos pasos para tener una copia local del proyecto funcionando.
